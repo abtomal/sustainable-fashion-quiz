@@ -8,9 +8,9 @@ interface ResultsPageProps {
 
 const ResultsPage: React.FC<ResultsPageProps> = ({ score, onRestart }) => {
   const getSkillLevel = (score: number): string => {
-    if (score <= 2) return 'Hypebeast';
-    if (score <= 4) return 'Trendsetter';
-    return 'Stylist';
+    if (score <= 2) return 'Hypebeast 🤡';
+    if (score <= 4) return 'Trendsetter 🤩';
+    return 'Stylist 💎';
   };
 
   const skillLevel = getSkillLevel(score);
