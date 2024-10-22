@@ -48,15 +48,14 @@ const QuizPage: React.FC<QuizPageProps> = ({ onFinish }) => {
       setScore((prevScore) => prevScore + 1);
     }
 
-    // Passa alla domanda successiva
-    const nextQuestion = currentQuestion + 1;
     
-    // Controlla se ci sono ancora domande
+    const nextQuestion = currentQuestion + 1;
+   
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
     } else {
-      // Se le domande sono finite, passa ai risultati
-      onFinish(score + (isCorrect ? 1 : 0)); // Incrementa score se l'ultima risposta è corretta
+      
+      onFinish(score + (isCorrect ? 1 : 0)); 
     }
   };
 

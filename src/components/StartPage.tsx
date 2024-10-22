@@ -1,4 +1,4 @@
-// src/components/StartPage.tsx
+
 import React from 'react';
 
 interface StartPageProps {

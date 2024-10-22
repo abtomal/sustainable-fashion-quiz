@@ -1,4 +1,4 @@
-// src/components/ResultsPage.tsx
+
 import React from 'react';
 
 interface ResultsPageProps {

@@ -10,7 +10,7 @@ interface QuestionProps {
 const Question: React.FC<QuestionProps> = ({ question, options, correctAnswer, onAnswer }) => {
   const [isAnswered, setIsAnswered] = useState<boolean>(false);
 
-  // Resettiamo lo stato "isAnswered" ogni volta che cambia la domanda
+ 
   useEffect(() => {
     setIsAnswered(false);
   }, [question]);
