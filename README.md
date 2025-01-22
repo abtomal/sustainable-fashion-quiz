@@ -1,51 +1,50 @@
-**Alessandro Ponton - Master in Blockchain Developer - Start2Impact Univeristy**
+**Alessandro Ponton - Master in Blockchain Development - Start2Impact Univeristy**
 
-# Progetto Typescript e React di Alessandro Ponton - Fashion Quiz
+# Alessandro Ponton's TypeScript and React Project - Fashion Quiz
 
-## Tecnologie utilizzate
-- **React** per la creazione dell'interfaccia utente e gestione dei componenti.
-- **TypeScript** per aggiungere tipizzazione statica e rendere il codice più robusto e scalabile.
-- **CSS** per lo styling dei componenti e l'interfaccia utente.
-- **Vite** per la gestione delle dipendenze di sviluppo.
+## Technologies Used
+- **React** for creating the user interface and managing components.
+- **TypeScript** for adding static typing and making the code more robust and scalable.
+- **CSS** for styling components and user interface.
+- **Vite** for managing development dependencies.
 
-## Funzionalità principali
-- Quiz a scelta multipla con 5 domande riguardanti la moda sostenibile.
-- Timer di mezzo secondo prima del passaggio alla domanda successiva dopo aver selezionato una risposta.
-- Schermata dei risultati con punteggio numerico e classificazione basata sul mondo della moda.
+## Main Features
+- Multiple choice quiz with 5 questions about sustainable fashion.
+- Half-second timer before moving to the next question after selecting an answer.
+- Results screen with numerical score and fashion-world based classification.
 
-## Commento
-Come da richiesta, ho strutturato il quiz in tre componenti:
+## Commentary
+As requested, I structured the quiz into three components:
 
-- Schermata iniziale
-- Sezione delle domande con opzioni di risposta
-- Schermata dei risultati
+- Initial screen
+- Questions section with answer options
+- Results screen
 
-La schermata iniziale spiega l'argomento del quiz e contiente il pulsante di start.
-La sezione delle domande contiene 4 opzioni per ogni domanda, ho cercato di renderle più omogenee possibile a livello visivo.
-La schermata dei risultati fornisce il totale delle risposte corrette unito ad una valutazione inerente al 'mondo della moda' che ho deciso di implementare di mia sponte.
+The initial screen explains the quiz topic and contains the start button.
+The questions section contains 4 options for each question, I tried to make them as visually consistent as possible.
+The results screen provides the total of correct answers along with a 'fashion world' evaluation that I decided to implement on my own initiative.
 
-## Installazione
+## Installation
 
-Scarica o clona il repository da GitHub.
+Download or clone the repository from GitHub.
 ```bash
 git clone https://github.com/abtomal/Progetto-Typescript-e-React-di-Alessandro-Ponton.git
 ```
 
-Estrai il file .zip ed entrare nella cartella estratta.
+Extract the .zip file and enter the extracted folder.
 ```bash
 cd Progetto Typescript e React di Alessandro Ponton
 ```
 
-Apri il prompt dei comandi o il terminale.
-
-Installa le dipendenze necessarie.
+Open command prompt or terminal.
+Install the necessary dependencies.
 ```bash
 npm install
 ```
 
-Lancia il progetto.
+Launch the project.
 ```bash
 npm run dev
 ```
 
-Apri il browser e naviga a http://localhost:5173 oppure http://localhost:3000 per visualizzare il progetto.
+Open your browser and navigate to http://localhost:5173 or http://localhost:3000 to view the project.
